@@ -34,7 +34,7 @@ def predict():
         result = "Malignant"
     else:
         result = "Benign"
-    return render_template('index.html', prediction_text='The tumor is {}'.format(result))
+    return render_template('index.html', Result='The tumor is {}'.format(result))
 
 
 if __name__ == "__main__":
