@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cancer prediction</title>
+    <style>
+        body {
+            margin: 0;
+            background: tomato;
+            font-family: Helvetica, sans-serif;
+        }
+
+        .outer-box {
+            min-height: 80vh;
+            position: relative;
+            max-width: 800px;
+            left: 50%;
+            margin-top: 10vh;
+            transform: translate(-50%);
+            background: white;
+        }
+
+        .heading {
+            margin: 5px;
+            padding: 15px;
+            /* text-align: center; */
+            font-size: 2rem;
+            color: #443b3b;
+            position: relative;
+        }
+
+        .heading::after {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 10px;
+            background: gray;
+        }
+        /* .form-class {
+            padding-top: 30px;
+        } */
+
+        input {
+            position: relative;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid grey;
+            padding: 5px;
+        }
+
+        .input {
+            margin: 20px;
+            display: inline-block;
+            width: 150px;
+        }
+
+        select {
+            padding: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .select {
+            position: relative;
+            width: 220px;
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .wrap {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        button {
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+            background: tomato;
+            outline: none;
+            margin: 40px auto;
+            min-width: 200px;
+            color: white;
+            transition: all 0.3s ease-out;
+            border: none;
+        }
+
+        button:hover {
+            background: gray;
+        }
+
+        .result {
+            position: relative;
+            margin: 20px;
+            text-align: center;
+            background: gainsboro;
+            color: #443b3b;
+            font-size: 1.2rem;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="heading">Cancer prediction model</div>
+        <form class="form-class" action="{{ url_for('predict')}}" method="post">
+            <div class="input">
+                <input type="text" name="Age" placeholder="Age" required="required" /><br>
+            </div>
+            <div class="input">
+                <input type="text" name="Shape" placeholder="Shape" required="required" /><br>
+            </div>
+            <div class="input">
+                <input type="text" name="Margin" placeholder="Margin" required="required" /><br>
+            </div>
+            <div class="input">
+                <input type="text" name="Density" placeholder="Density" required="required" /><br>
+            </div><br>
+            <div class="select">
+                Androgen_history: <select name="androgen_history">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+            <div class="select">
+                Prev_visit: <select name="prev_visit">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+            <div class="select">
+                Blood Group: <select name="Blood Group">
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">AB</option>
+                    <option value="4">O</option>
+                </select>
+            </div><br>
+            <div class="wrap">
+                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            </div>
+        </form>
+        <br>
+        <div class="result">
+            {{ prediction_text }}
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
