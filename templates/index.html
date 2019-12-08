@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            background: pink;
+            background: tomato;
             font-family: Helvetica, sans-serif;
         }
 
@@ -24,9 +24,9 @@
         .heading {
             margin: 5px;
             padding: 15px;
-            text-align: center; 
-            font-size: 40px;
-            color: purple;
+            /* text-align: center; */
+            font-size: 2rem;
+            color: #443b3b;
             position: relative;
         }
 
@@ -50,7 +50,6 @@
             border: none;
             border-bottom: 1px solid grey;
             padding: 5px;
-            text-align: center;
         }
 
         .input {
@@ -84,27 +83,27 @@
             border-radius: 5px;
             cursor: pointer;
             padding: 10px;
-            background: pink;
+            background: tomato;
             outline: none;
             margin: 40px auto;
             min-width: 200px;
-            color: purple;
+            color: white;
             transition: all 0.3s ease-out;
             border: none;
-            font-size: 30px;
-                width:120px;
-                height:50px;
-            display: block;
+        }
+
+        button:hover {
+            background: gray;
         }
 
         .result {
             position: relative;
-            margin-bottom: 30px;
+            margin: 20px;
             text-align: center;
-            background: pink;
-            color: purple;
-            font-size: 30px;
-            padding-bottom: 35px;
+            background: gainsboro;
+            color: #443b3b;
+            font-size: 1.2rem;
+            padding: 15px;
         }
     </style>
 </head>
@@ -112,16 +111,16 @@
 <body>
     <div class="outer-box">
         <div class="heading">Cancer prediction model</div>
-        <form class="form-class" action="{{ url_for('predict')}}" align="center" method="post">
+        <form class="form-class" action="{{ url_for('predict')}}" method="post">
             <div class="input">
                 <input type="text" name="Age" placeholder="Age" required="required" /><br>
-            </div><br>
+            </div>
             <div class="input">
                 <input type="text" name="Shape" placeholder="Shape" required="required" /><br>
-            </div><br>
+            </div>
             <div class="input">
                 <input type="text" name="Margin" placeholder="Margin" required="required" /><br>
-            </div><br>
+            </div>
             <div class="input">
                 <input type="text" name="Density" placeholder="Density" required="required" /><br>
             </div><br>
