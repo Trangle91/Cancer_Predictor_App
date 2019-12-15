@@ -34,7 +34,7 @@ masses_data = df[['BI-RADS',
                            'blood_group_O',
                            'severity']]
 df = masses_data
-del df['BI-RADS'] 3irrelevant
+del df['BI-RADS'] #irrelevant
 
 
 # Handling missing data
