@@ -4,7 +4,7 @@ https://cancer-predictor-app.herokuapp.com
 ## Model comparison:
 
 * Support Vector Machine
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png){:height="50%" width="50%"}
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png" width="100" height="100">
 
 * Decision Tree
 ![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png){:height="50%" width="50%"}
