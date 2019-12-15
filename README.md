@@ -4,7 +4,7 @@ The application was deployed and available online: [lead me to the app](https://
 
 The app is to predict whether a tumor of breast cancer is benign or maglinant. Users will input required information in order to make predictions. 
 
-### Inputs:
+## Inputs: ##
 * Age: a number
 * Shape: 1 - 4
 * Margin: 1 - 5
@@ -42,7 +42,7 @@ tree, which was the best classifier for the dataset with 90% accuracy obtained.
 ## Model comparison:
 
 ### Support Vector Machine
-<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png" width="800" height="300">
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png" width="750" height="250">
 
 ### Decision Tree
 <img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png" width="500" height="500">
@@ -64,7 +64,7 @@ tree, which was the best classifier for the dataset with 90% accuracy obtained.
 <img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR2.png" width="500" height="500">
 
 ### Table for comparison
-<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/table.png" width="900" height="500">
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/table.png" width="900" height="400">
 
 ## Limitations
 Due to short computational power, GridSearchCV ran on top of SVM was not completely implemented, the accuracy above was the result of the default parameters of SVM. A CNN model could be built for further accuracy improvement.
