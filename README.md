@@ -13,9 +13,7 @@ The app is to predict whether a tumor of breast cancer is benign or maglinant. U
 * Previous visit: yes or no
 * Blood group: either A, B, O, or AB
 
-Dataset can be downloaded on [Kaggle](https://www.kaggle.com/overratedgman/mammographic-mass-data-set) or contact me for the data.
-
-A variety of Machine Learning algorithms was applied on the dataset:
+Data can be downloaded on [Kaggle](https://www.kaggle.com/overratedgman/mammographic-mass-data-set) or contact me for the dataset. A variety of Machine Learning algorithms was applied on the dataset:
 
 * Support Vector Machine
 * Decision Tree
