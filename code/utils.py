@@ -1,4 +1,4 @@
-
+import numpy as np
 from sklearn.model_selection import learning_curve
 
 def get_learning_curve(model,name):
