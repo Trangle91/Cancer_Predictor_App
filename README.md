@@ -4,11 +4,26 @@ https://cancer-predictor-app.herokuapp.com
 ## Model comparison:
 
 * Support Vector Machine
-![picture](https://www.facebook.com/photo.php?fbid=2739904382734167&set=a.249977551726875&type=3&theater)
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png)
 
+* Decision Tree
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png)
 
-           Benign  Malignant
-Benign      20447       2773
-Malignant    2201      17824
-Mean Accuracy is                     : 0.88498099062632
-Standard Deviation of accuracies is  : 0.002768482701684517
+* Random Forest
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/RF.png)
+
+* XG Boost
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/XGB.png) 
+
+* Naive Bayes
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NB.png)
+
+* Nearest Neighbor
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NN.png)
+
+* Logistic Regression
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR.png)
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR2.png)
+
+## Table for comparison
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/table.png)
