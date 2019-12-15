@@ -3,11 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import Imputer, StandardScaler
 from sklearn.model_selection import train_test_split
-
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import StratifiedKFold
+from utils.py import get_results
+from utils.py import get_scores
+from utils.py import get_learning_curve
 
 """## Converting dummies"""
 
