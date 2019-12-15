@@ -4,13 +4,13 @@ https://cancer-predictor-app.herokuapp.com
 ## Model comparison:
 
 * Support Vector Machine
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png)
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png =250x250)
 
 * Decision Tree
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png)
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png =250x250)
 
 * Random Forest
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/RF.png)
+![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/RF.png =250x250)
 
 * XG Boost
 ![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/XGB.png) 
