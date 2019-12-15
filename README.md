@@ -4,26 +4,26 @@ https://cancer-predictor-app.herokuapp.com
 ## Model comparison:
 
 * Support Vector Machine
-<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/SVM.png" width="300" height="300">
 
 * Decision Tree
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png){:height="50%" width="50%"}
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/DT.png" width="400" height="400">
 
 * Random Forest
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/RF.png){:height="50%" width="50%"}
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/RF.png" width="100" height="100">
 
 * XG Boost
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/XGB.png) 
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/XGB.png" width="100" height="100">
 
 * Naive Bayes
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NB.png)
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NB.png" width="100" height="100">
 
 * Nearest Neighbor
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NN.png)
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/NN.png" width="100" height="100">
 
 * Logistic Regression
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR.png)
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR2.png)
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/LR2.png" width="100" height="100">
 
 ## Table for comparison
-![picture](https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/table.png)
+<img src="https://raw.githubusercontent.com/Trangle91/Cancer_Predictor_App/master/images/table.png" width="100" height="100">
